@@ -1,0 +1,71 @@
+/* Start Flex */
+
+.flex {
+	display: flex;
+}
+
+.align-center {
+	align-items: center;
+}
+
+/* End Flex */
+
+/* Start Colors */
+
+.bg-white {
+	background-color: white;
+}
+
+.c-black {
+	color: black;
+}
+
+/* End Colors */
+
+/* Start Text */
+
+.txt-cntr {
+	text-align: center;
+}
+
+/* End Text */
+
+/* Start Box Model */
+
+.m-20 {
+	margin: 20px;
+}
+
+.mt-0 {
+	margin-top: 0;
+}
+
+.p-10 {
+	padding: 10px;
+}
+
+.p-20 {
+	padding: 20px;
+}
+
+/* End Box Model */
+
+/* Start Position */
+
+.relative {
+	position: relative;
+}
+
+/* End Position */
+
+/* Start Border */
+
+.rad-6 {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+}
+
+/* End Border */

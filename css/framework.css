@@ -69,3 +69,13 @@
 }
 
 /* End Border */
+
+/* Start Helper Classes */
+
+@media (max-width: 767px) {
+	.hide-mobile {
+		display: none;
+	}
+}
+
+/* End Helper Classes */

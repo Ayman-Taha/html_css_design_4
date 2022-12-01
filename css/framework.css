@@ -1,3 +1,16 @@
+/****************************/
+/***** Global Variables *****/
+/****************************/
+
+:root {
+	--blue-color: #0075ff;
+	--blue-alt-color: #0d69d5;
+	--orange-color: #f59e0b;
+	--green-color: #22c55e;
+	--red-color: #f44336;
+	--grey-color: #888;
+}
+
 /* Start Flex */
 
 .flex {
@@ -16,7 +29,7 @@
 	background-color: white;
 }
 
-.c-black {
+.txt-black {
 	color: black;
 }
 
@@ -32,6 +45,10 @@
 
 /* Start Box Model */
 
+.w-full {
+	width: 100%;
+}
+
 .m-20 {
 	margin: 20px;
 }
@@ -42,6 +59,10 @@
 
 .p-10 {
 	padding: 10px;
+}
+
+.p-15 {
+	padding: 15px;
 }
 
 .p-20 {
@@ -79,3 +100,17 @@
 }
 
 /* End Helper Classes */
+
+/* Start Components */
+
+.between-flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* End Components */
+
+.hide-overflow {
+	overflow: hidden;
+}

@@ -1,3 +1,16 @@
+/****************************/
+/***** Global Variables *****/
+/****************************/
+
+:root {
+	--blue-color: #0075ff;
+	--blue-alt-color: #0d69d5;
+	--orange-color: #f59e0b;
+	--green-color: #22c55e;
+	--red-color: #f44336;
+	--grey-color: #888;
+}
+
 /************************/
 /***** Global Rules *****/
 /************************/
@@ -106,4 +119,47 @@ a {
 	.sidebar > h3::after {
 		display: none;
 	}
+}
+
+/****************/
+/***** Head *****/
+/****************/
+
+.head .search::before {
+	font-family: var(--fa-style-family-classic);
+	content: "\f002";
+	font-weight: 900;
+	position: absolute;
+	left: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	font-size: 14px;
+	color: var(--grey-color);
+}
+
+.head .search input {
+	border: 1px solid #ccc;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	margin-left: 5px;
+	padding-left: 30px;
+	width: 160px;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	-ms-transition: width 0.3s;
+	-o-transition: width 0.3s;
+	transition: width 0.3s;
+}
+
+.head .search input:focus {
+}
+
+.head .search input:focus::placeholder {
 }
